@@ -1,12 +1,18 @@
-.container{
+.container1{
     display:flex;
     justify-content:center;
     align-items: center;
-    width:85%
+    width:80vw
 }
 
 @media (max-width:770px){
-    .container{
-        width:100%
+    .container1{
+        width:80vw
+    }
+}
+@media (max-width:450px){
+    .container1{
+        width:80vw;
+        height:52vh
     }
 }

@@ -55,7 +55,7 @@ const Charts = ({data:{confirmed, recovered, deaths}, country}) => {
 
     console.log(country)
     return (
-        <div className="container">
+        <div className="container1">
             {!country?LineChart:BarChart}
         </div>
     )

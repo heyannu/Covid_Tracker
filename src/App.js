@@ -23,8 +23,8 @@ class App extends Component {
     return (
       <div className="container" >
         <img src={Corona} className="image" alt="COVID-19"/>
-        <Cards data={this.state.data} />
         <CountryPicker handlecountryChange={this.handlecountryChange} />
+        <Cards data={this.state.data} />
         <Charts data={this.state.data} country={this.state.country} />
       </div>
     )
