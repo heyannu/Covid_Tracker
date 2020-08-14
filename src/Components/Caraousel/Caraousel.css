@@ -25,3 +25,24 @@ ul{
     height:40%;
     transition: height .15s ease-in;
 } */
+@media screen and (max-width:600px){
+    .div{
+        height: 49vh;
+        width: 75vw;
+    }
+    .img{
+        width: 45vw;
+        height: 42vh;
+    }   
+}
+
+@media screen and (max-width:450px){
+    .div{
+        height: 49vh;
+        width: 75vw;
+    }
+    .img{
+        width: 45vw;
+        height: 40vh;;
+    }   
+}
